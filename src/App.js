@@ -9,6 +9,8 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
+import Avatar from '@mui/material/Avatar';
+
 
 export default function NavBar() {
   return (
@@ -27,9 +29,11 @@ export default function NavBar() {
           <MenuIcon/>
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            News
+            My first React Project
           </Typography>
-          <Button color="inherit">Login</Button>
+          <Button color="inherit">
+            <Avatar alt="Remy Sharp" src="public/logo192.png" />
+          </Button>
         </Toolbar>
       </AppBar>
     </Box>
