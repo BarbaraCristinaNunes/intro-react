@@ -71,4 +71,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # Material UI
 
-Installed Material UI and used it to do my nav bar
+Installed Material UI and used it to do my nav bar.
+
+I used createTheme to create a color to my navbar and ThemeProvider to apply this color
